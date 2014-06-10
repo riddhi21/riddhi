@@ -1,0 +1,36 @@
+<%= form_for(@rids) do |f| %>
+	
+	
+	
+
+	<table>
+		<tr>
+			<td>
+				<%= f.label :name %>
+			</td>	
+			<td>
+				<%= f.text_field :name %>
+			</td>
+		</tr>	
+		<tr>
+			<td>
+				<%= f.label :qualification%>
+			</td>
+			<td>
+				<%= f.text_field :qualification%>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<%= f.label :status%>	
+
+			</td>
+			<td>
+				<%= f.text_field :status%>
+			</td>
+		</tr>	
+
+	</table>
+
+	<%= f.submit "submit" %> 
+	<% end %>
